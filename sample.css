@@ -22,16 +22,18 @@
     position:fixed;
     top:11px;
     
-    z-index: 10;
-
+    
+.child12{
+position:relative;
+}
 }
 .search{
     width:280px;
     height: 30px;
     background-color: rgb(239, 241, 239);
     border-radius:10px 10px 10px 10px ;
-    position:fixed;
-    bottom: 50px;
+    position:sticky;
+    bottom: 0px;
     
  
 }
