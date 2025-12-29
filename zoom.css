@@ -1,0 +1,35 @@
+.container{
+    background-color: black;
+    display:flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width:100%;
+   
+
+}
+.child{
+    color:white;
+    margin-left:50px;
+    padding-top: 10px;
+    
+}
+
+h4{
+    position:fixed;
+   
+    top: 0px;
+   margin-left: 50px;
+  
+    color:rgb(249, 246, 246);
+}
+.child-5 i{ 
+    background-color: green;
+    color:black;
+}
+i{
+    font-size: larger;
+}
+h6{
+    padding-top: 0px;
+font-size:small;
+}
