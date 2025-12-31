@@ -1,0 +1,51 @@
+.container{
+    width:400px;
+    height:400px;
+    border: 5px solid rgb(190, 110, 5);
+    background-color: rgb(241, 198, 143);
+   margin-left: 400px;
+}
+.sub{
+    width: 50px;
+    height: 50px;
+    
+}
+.child{
+    display:flex;
+}
+.child-1 .sub:nth-child(even){
+    background-color: rgb(190, 110, 5);
+
+}
+.child-3 .sub:nth-child(even){
+   background-color: rgb(190, 110, 5);
+
+}
+.child-5 .sub:nth-child(even){
+   background-color: rgb(190, 110, 5);
+
+}
+.child-7 .sub:nth-child(even){
+ background-color: rgb(190, 110, 5);
+
+}
+.child-2 .sub:nth-child(odd){
+    background-color: rgb(190, 110, 5);
+
+}
+.child-4 .sub:nth-child(odd){
+   background-color: rgb(190, 110, 5);
+
+}
+.child-6 .sub:nth-child(odd){
+   background-color: rgb(190, 110, 5);
+
+}
+.child-8 .sub:nth-child(odd){
+background-color: rgb(190, 110, 5);
+
+}
+.child .img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
